@@ -1,0 +1,77 @@
+
+    Food Order Analysis Report
+    =========================
+
+    1. Dish Popularity
+    -----------------
+    Most Popular Dishes:
+    Dish Name
+Spaghetti          4
+Caesar Salad       3
+Grilled Chicken    3
+Pancakes           2
+Oatmeal            1
+Name: count, dtype: int64
+
+    Top Revenue Generating Dishes:
+    Dish Name
+Spaghetti          55.5
+Grilled Chicken    38.5
+Caesar Salad       28.0
+Pancakes           16.5
+Veggie Burger      11.0
+Name: Amount (USD), dtype: float64
+
+    2. Meal Time Distribution
+    -------------------------
+    Time of Day
+Night      7
+Day        4
+Morning    3
+Name: count, dtype: int64
+
+    3. Cooking Session Performance
+    ------------------------------
+    Average Session Duration by Dish:
+    Dish Name
+Caesar Salad       21.666667
+Grilled Chicken    42.500000
+Oatmeal            10.000000
+Pancakes           30.000000
+Spaghetti          35.000000
+Veggie Burger      20.000000
+Name: Duration (mins), dtype: float64
+
+    Average Session Rating by Dish:
+    Dish Name
+Caesar Salad       4.366667
+Grilled Chicken    4.775000
+Oatmeal            4.100000
+Pancakes           4.400000
+Spaghetti          4.625000
+Veggie Burger      4.350000
+Name: Session Rating, dtype: float64
+
+    4. Demographic Analysis
+    -----------------------
+    Average Order Amount by Age Group:
+    Age Group
+18-25    13.00
+26-35    11.00
+36-45    11.25
+Name: Amount (USD), dtype: float64
+
+    Favorite Meals by Age Group:
+    Age Group
+18-25       Dinner
+26-35       Dinner
+36-45    Breakfast
+Name: Meal Type, dtype: object
+
+    Business Recommendations
+    -----------------------
+    1. Focus marketing efforts on top-performing dishes
+    2. Consider expanding meal options for different age groups
+    3. Optimize cooking session durations for popular dishes
+    4. Develop targeted promotions based on meal time preferences
+    
